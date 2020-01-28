@@ -1,0 +1,9 @@
+node_modules
+test
+.eslintignore
+.eslintrc.js
+wdio.conf.js
+yarn.lock
+.npmrc
+.tsconfig
+.gitignore
