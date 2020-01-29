@@ -19,7 +19,9 @@ exports.config = {
     baseUrl: 'https://www.example.org',
     waitforTimeout: 10000,
     framework: 'jasmine',
-    reporters: [testnameReporter],
+    reporters: [[testnameReporter, {
+        Starting: false,
+    }]],
     services: [],
     jasmineNodeOpts: {
         defaultTimeoutInterval: 5000,
